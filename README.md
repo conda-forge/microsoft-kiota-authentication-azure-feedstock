@@ -3,15 +3,15 @@ About microsoft-kiota-authentication-azure-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/microsoft-kiota-authentication-azure-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/microsoft/kiota-authentication-azure-python
+Home: https://github.com/microsoft/kiota-python/tree/main/packages/authentication/azure
 
 Package license: MIT
 
 Summary: Authentication provider for Kiota using Azure Identity
 
-Development: https://github.com/microsoft/kiota-authentication-azure-python
+Development: https://github.com/microsoft/kiota-python/tree/main/packages/authentication/azure
 
-Documentation: https://github.com/microsoft/kiota-authentication-azure-python/blob/main/README.md
+Documentation: https://github.com/microsoft/kiota-python/blob/main/packages/authentication/azure/README.md
 
 Current build status
 ====================
