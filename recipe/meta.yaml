@@ -1,5 +1,5 @@
 {% set name = "microsoft-kiota-authentication-azure" %}
-{% set version = "1.4.5" %}
+{% set version = "1.4.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/microsoft_kiota_authentication_azure-{{ version }}.tar.gz
-  sha256: 5d3eb68e164b945b84d0f87e062212363f543581a3cc934421ddd572d5579222
+  sha256: 9315074c10f84144b73897cb98baf84d215fe4271391fd1230c9ac9764122461
 
 build:
   noarch: python
