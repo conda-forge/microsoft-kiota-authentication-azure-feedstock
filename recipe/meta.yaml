@@ -1,5 +1,5 @@
 {% set name = "microsoft-kiota-authentication-azure" %}
-{% set version = "1.6.3" %}
+{% set version = "1.6.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/microsoft_kiota_authentication_azure-{{ version }}.tar.gz
-  sha256: 15856053d48200b35505186959cb11fbe3fdf3399c6d0b9d257d3f39d8c880bb
+  sha256: ae51ebe8e6092fd2eaf329752ca5d4e249ec70da6623c7a48d567390d8f46669
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
     - poetry-core >=1.0.0
   run:
-    - python >={{ python_min }}
+    - python >={{ python_min }},<4.0
     - aiohttp >=3.8.0
     - azure-core >=1.21.1
     - microsoft-kiota-abstractions
