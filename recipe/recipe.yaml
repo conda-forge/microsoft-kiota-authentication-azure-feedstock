@@ -1,6 +1,6 @@
 context:
   name: microsoft-kiota-authentication-azure
-  version: "1.9.8"
+  version: "1.10.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/microsoft_kiota_authentication_azure-${{ version }}.tar.gz
-  sha256: 8bc2b3819c650d10555b897c47d6f9ec231b1300fac0fb5756d7d3a612b9f1c9
+  sha256: 7de150868dab399b4ac36cb17a0ae726ff616079cee9b0a72e7d5e06f5c652e9
 
 build:
   noarch: python
