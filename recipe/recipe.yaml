@@ -1,6 +1,6 @@
 context:
   name: microsoft-kiota-authentication-azure
-  version: "1.10.1"
+  version: "1.11.7"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/microsoft_kiota_authentication_azure-${{ version }}.tar.gz
-  sha256: 7de150868dab399b4ac36cb17a0ae726ff616079cee9b0a72e7d5e06f5c652e9
+  sha256: 1052ea952955475a164ba4486085e0de9fcaa978c7c0b73202bc6a9eabd9b412
 
 build:
   noarch: python
@@ -19,12 +19,12 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - poetry-core >=1.0.0
+    - flit-core >=3.2,<4
   run:
     - python >=${{ python_min }},<4.0
     - aiohttp >=3.8.0
     - azure-core >=1.21.1
-    - microsoft-kiota-abstractions ${{ version }}.*
+    - microsoft-kiota-abstractions >=1.11.1,<2.0.0
     - opentelemetry-api >=1.27.0
     - opentelemetry-sdk >=1.27.0
 
