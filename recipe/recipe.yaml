@@ -19,7 +19,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - flit-core >=3.2,<4
+    - flit-core >=3.2,<5
   run:
     - python >=${{ python_min }},<4.0
     - aiohttp >=3.8.0
